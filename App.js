@@ -44,7 +44,7 @@ export default function App() {
     return (
       <S.Wrapper>
         <S.Title>{caption}</S.Title>
-        <S.Info numberOfLines={1}>{value}</S.Info>
+        <S.Info>{value}</S.Info>
       </S.Wrapper>
     );
   }
